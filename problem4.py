@@ -54,7 +54,6 @@ while txtLine:
             time = (int(line[0])  - int(subnetConnectLastTime[subnetIndex]))*1000 + int(line[2])
             print('failure subnet : ' + subnetList[subnetIndex] + ',' + str(time))
         subnetFailureStatus[subnetIndex] = N;
-    #print(subnetList)
     txtLine = logfile.readline()
 
 
